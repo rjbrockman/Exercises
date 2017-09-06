@@ -1,0 +1,118 @@
+/* CSS */
+/* Setting page background, font-family, font-size, margin, padding, border and aligning */
+html {
+	background-color: #FFE4C4;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;	
+}
+
+/* Width Control */
+#wrap{
+  height: 100%; 
+  max-width: 61em; 
+  margin: auto;
+}
+
+.menu_simple ul {
+margin: 0;
+padding: 0;
+width:18em;
+list-style-type: none;
+}
+ 
+.menu_simple ul li a {
+text-decoration: none;
+color: white;
+padding: .5em .6em;
+background-color: #005555;
+display:block;
+}
+ 
+.menu_simple ul li a:visited {
+color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+color: white;
+background-color: #5FD367;
+}
+
+/* Setting as a block */
+section {
+	display: block;
+}
+
+nav{
+  background-color: #fafafa;
+  padding: 0.24em;
+  text-transform: uppercase;
+  letter-spacing: 0.375em;
+  color: #bdffcb;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+h1, h2 { 
+    font-size: 1.25em;
+    font-weight: 900;
+    font-family: Garamond, serif;
+}
+
+
+/* Setting line-height */
+body {
+	    padding-left: 11em;
+        font-family: Georgia, "Times New Roman",
+        Times, serif;
+        color: black; 
+}
+
+footer{
+  padding: 0.24em;
+  background-color: black;
+  color: #c9c9c9;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Giving style to the header */
+header {
+	text-align: left;
+	color: #800000;
+	font-size: 1em;
+}
+
+mark {
+	color: blue;
+}
+/* Giving style to the h3 */
+h3 {
+	color: #8B0000;
+	margin-left: 1rem;
+}
+
+/* Styling the list */
+ol, ul {
+	list-style: disc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#leftalign {
+  width: 49.5em;
+  margin: 0 auto;
+}  
+#float1 {
+  float:right;
+}
+#clfloat {
+  clear:both;
+}
